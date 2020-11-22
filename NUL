@@ -1,0 +1,229 @@
+[1606052064.489][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-infobars", "start-maximized", "--disable-extensions", "--start-maximized" ],
+            "extensions": [  ],
+            "prefs": {
+               "profile.default_content_setting_values.geolocation": 1,
+               "profile.default_content_setting_values.media_stream_camera": 1,
+               "profile.default_content_setting_values.media_stream_mic": 1,
+               "profile.default_content_setting_values.notifications": 1
+            }
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-infobars", "start-maximized", "--disable-extensions", "--start-maximized" ],
+         "extensions": [  ],
+         "prefs": {
+            "profile.default_content_setting_values.geolocation": 1,
+            "profile.default_content_setting_values.media_stream_camera": 1,
+            "profile.default_content_setting_values.media_stream_mic": 1,
+            "profile.default_content_setting_values.notifications": 1
+         }
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1606052064.490][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1,
+         "media_stream_camera": 1,
+         "media_stream_mic": 1,
+         "notifications": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1606052064.491][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1606052064.492][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-extensions --disable-extensions-except=/tmp/.org.chromium.Chromium.NfxIlb/internal --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chromium.VrGTHa data:,
+[1606052066.299][INFO]: resolved localhost to ["127.0.0.1"]
+[1606052066.648][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706)",
+      "userDataDir": "/tmp/.org.chromium.Chromium.VrGTHa"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:34181"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Linux",
+   "rotatable": false,
+   "~~~": "..."
+}
+[1606052066.660][INFO]: COMMAND Navigate {
+   "sessionId": "7908552a8459a8b263be80900be2fa0f",
+   "url": "https://teams.microsoft.com"
+}
+[1606052066.661][INFO]: Waiting for pending navigations...
+[1606052066.669][INFO]: Done waiting for pending navigations. Status: ok
+[1606052067.813][INFO]: Waiting for pending navigations...
+[1606052070.170][INFO]: Done waiting for pending navigations. Status: ok
+[1606052070.170][INFO]: RESPONSE Navigate
+[1606052070.173][INFO]: COMMAND FindElement {
+   "sessionId": "7908552a8459a8b263be80900be2fa0f",
+   "using": "tag name",
+   "value": "body"
+}
+[1606052070.173][INFO]: Waiting for pending navigations...
+[1606052070.208][INFO]: Done waiting for pending navigations. Status: ok
+[1606052070.263][INFO]: Waiting for pending navigations...
+[1606052070.268][INFO]: Done waiting for pending navigations. Status: ok
+[1606052070.268][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9573226509124075-1"
+}
+[1606052070.271][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9573226509124075-1"
+}
+[1606052070.271][INFO]: Waiting for pending navigations...
+[1606052070.277][INFO]: Done waiting for pending navigations. Status: ok
+[1606052070.316][INFO]: Waiting for pending navigations...
+[1606052070.319][INFO]: Done waiting for pending navigations. Status: ok
+[1606052070.319][INFO]: RESPONSE IsElementDisplayed true
+[1606052070.323][INFO]: COMMAND GetUrl {
+
+}
+[1606052070.323][INFO]: Waiting for pending navigations...
+[1606052070.325][INFO]: Done waiting for pending navigations. Status: ok
+[1606052070.332][INFO]: Waiting for pending navigations...
+[1606052070.334][INFO]: Done waiting for pending navigations. Status: ok
+[1606052070.334][INFO]: RESPONSE GetUrl "https://login.microsoftonline.com/common/oauth2/authorize?response_type=id_token&client_id=5e3ce6c0-2b1f-4285-8d4b-75ee78787346&redirect_uri=https%3A%2F%2Fteams.microsoft.com%2Fgo&state=69099445-cc..."
+[1606052071.338][INFO]: COMMAND FindElement {
+   "sessionId": "7908552a8459a8b263be80900be2fa0f",
+   "using": "name",
+   "value": "loginfmt"
+}
+[1606052071.338][INFO]: Waiting for pending navigations...
+[1606052071.341][INFO]: Done waiting for pending navigations. Status: ok
+[1606052071.382][INFO]: Waiting for pending navigations...
+[1606052071.391][INFO]: Done waiting for pending navigations. Status: ok
+[1606052071.391][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9573226509124075-2"
+}
+[1606052071.394][INFO]: COMMAND ClickElement {
+   "id": "0.9573226509124075-2",
+   "sessionId": "7908552a8459a8b263be80900be2fa0f"
+}
+[1606052071.394][INFO]: Waiting for pending navigations...
+[1606052071.397][INFO]: Done waiting for pending navigations. Status: ok
+[1606052071.543][INFO]: Waiting for pending navigations...
+[1606052071.546][INFO]: Done waiting for pending navigations. Status: ok
+[1606052071.546][INFO]: RESPONSE ClickElement
+[1606052071.549][INFO]: COMMAND TypeElement {
+   "id": "0.9573226509124075-2",
+   "sessionId": "7908552a8459a8b263be80900be2fa0f",
+   "text": "s7690@bcmschoolcr.onmicrosoft.com",
+   "value": [ "s", "7", "6", "9", "0", "@", "b", "c", "m", "s", "c", "h", "o", "o", "l", "c", "r", ".", "o", "..." ]
+}
+[1606052071.549][INFO]: Waiting for pending navigations...
+[1606052071.555][INFO]: Done waiting for pending navigations. Status: ok
+[1606052072.523][INFO]: Waiting for pending navigations...
+[1606052072.527][INFO]: Done waiting for pending navigations. Status: ok
+[1606052072.528][INFO]: RESPONSE TypeElement
+[1606052072.533][INFO]: COMMAND FindElement {
+   "sessionId": "7908552a8459a8b263be80900be2fa0f",
+   "using": "id",
+   "value": "idSIButton9"
+}
+[1606052072.533][INFO]: Waiting for pending navigations...
+[1606052072.538][INFO]: Done waiting for pending navigations. Status: ok
+[1606052072.589][INFO]: Waiting for pending navigations...
+[1606052072.601][INFO]: Done waiting for pending navigations. Status: ok
+[1606052072.601][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.9573226509124075-3"
+}
+[1606052072.613][INFO]: COMMAND ClickElement {
+   "id": "0.9573226509124075-3",
+   "sessionId": "7908552a8459a8b263be80900be2fa0f"
+}
+[1606052072.613][INFO]: Waiting for pending navigations...
+[1606052072.617][INFO]: Done waiting for pending navigations. Status: ok
+[1606052072.809][INFO]: Waiting for pending navigations...
+[1606052072.999][INFO]: Done waiting for pending navigations. Status: ok
+[1606052072.999][INFO]: RESPONSE ClickElement
+[1606052074.005][INFO]: COMMAND FindElement {
+   "sessionId": "7908552a8459a8b263be80900be2fa0f",
+   "using": "id",
+   "value": "i0118"
+}
+[1606052074.006][INFO]: resolved localhost to ["127.0.0.1"]
+[1606052074.011][INFO]: RESPONSE FindElement chrome not reachable
+  (Session info: chrome=86.0.4240.183)
